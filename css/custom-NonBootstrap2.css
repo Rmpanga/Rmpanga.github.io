@@ -1,31 +1,18 @@
-h3 {
-    color: blue;
-    margin: 5px;
-}
 
 body {
     background-color: black;
-}
-
-.selected{
-
-   padding: .3em .4em .3em .4em; 
-   text-decoration: none;
-   background-color: blue;
-
 }
 
 
 .navbar-wrapper {
   width:100%;
     display:table;
+    position: fixed;
+    background-color: black;
+    top:0;
 }
 
-.navbar-wrapper img {
-    display:inline;
-}
 .nav-image { 
-
   display:table-cell; 
 }
 
@@ -81,7 +68,7 @@ body {
    font-weight: bold; 
    font-size: 1.5em; 
    background-color: black; 
-   color: orange;
+   color: white;
 } 
 
 
@@ -93,7 +80,7 @@ body {
    font-weight: bold;
    font-style: italic; 
    font-size: 1.5em; 
-   color: orange; 
+   color: white; s
 } 
 
 .navbar-links ul a:active{ 
@@ -117,35 +104,13 @@ body {
 }
 
 
-
-.test {
-    display: inline;
-    
-}
-
 .row {
     width: 100%;
 }
 
-.row-top {
-
-    width: 100%;
-    background-color: #2150de;
-}
 
 .img-responsive {
     width: 100%;
-}
-
-.col-left {
-    max-width: 60px;
-    max-height: 70%;
-    float: left;
-}
-
-.col-right {
-    max-width: 100%;
-    float: left;
 }
 
 .col-half {
@@ -203,6 +168,10 @@ a {
 
 }
 
+.footer{
+  clear: both;
+}
+
 
 @media (max-width: 500px) {
     .col-half {
@@ -225,11 +194,3 @@ a {
     }
 }
 
-.test {
-	width: 100px;
-	height: 100px;
-	border-radius: 75px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(http://www.placehold.it/200x200) no-repeat;
-	}

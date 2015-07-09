@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/custom-NonBootstrap2.css" >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="./js/imageScript.js"></script>
+    <script src="./js/setup.js"></script>
 	
 	<!--Optional theme
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
@@ -17,7 +18,7 @@
 <body>
  <div class="container">
     <div class="port">
-        <div class="navbar-wrapper">
+        <div id="navigation-bar" class="navbar-wrapper">
             <div class="nav-image">
                 <img id="logo" src="./images/R_noise.jpg" onmouseover="logoIn();" onmouseout="logoOut()"class="" alt=""/>
             </div>
@@ -31,30 +32,28 @@
             </div> 
         </div>
 
-        <!--
-        <div id="custom-title" class="row-top">
-            <img src="./images/Logo colored.png" class="img-responsive" alt="" />
-        </div>
-        -->
+        <div id="below-nav">
             <div class="row">
                 <div class="col-half">
-                    <img src="./images/Grad friends.jpg" class="img-responsive" alt="" />
+                    <img id="grad_pic" src="./images/Grad friends.jpg" class="img-responsive scrollFade" alt="" />
                 </div>
-                <div class="col-half">
-                    <img src="./images/PreBoard Skydiving.jpg" class="img-responsive" alt="" />
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-half">
-                    <img src="./images/landing.jpg" class="img-responsive" alt="" />
-                </div>
-                <div class="col-half">
-                    <img src="./images/skating2.png" class="img-responsive" alt="" /> 
+                <div  class="col-half">
+                    <img src="./images/PreBoard Skydiving.jpg" class="img-responsive scrollFade" alt="" />
                 </div>
             </div>
 
-            <!--
-        
+            
+            <div class="row">
+                <div class="col-half">
+                    <img src="./images/landing.jpg" class="img-responsive scrollFade" alt="" />
+                </div>
+                <div class="col-half">
+                    <img src="./images/skating2.png" class="img-responsive scrollFade" alt="" /> 
+                </div>
+            </div>
+
+
+        <!--
         <div class="middle-row">
         	<div class="col-quart">
         		<h1> About </h1>
@@ -72,8 +71,9 @@
         		<h1> Gallery </h1>
         		<img src="http://www.placehold.it/200x200" class="img-responsive" alt="" />
         	</div>
+        </div>
         	
-<!--
+
         <div class="bottom-row">
         	<div class="col-full">
                 <img src="http://www.placehold.it/1200x100" class="img-responsive" alt="" />
