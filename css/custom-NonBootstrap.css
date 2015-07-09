@@ -1,0 +1,192 @@
+h3 {
+    color: blue;
+    margin: 5px;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+.nav-image{
+    display : inline;
+
+}
+
+#navbar {
+   margin: 0; 
+   padding: .3em 0 .3em 0; 
+   width: 100%; 
+ }
+
+ #navbar ul {
+   list-style: none; 
+   margin: 0; 
+   padding: 0; 
+ }
+
+ #navbar li { 
+   margin: 25%; 
+   padding: 0; 
+   display: inline; 
+   text-align: center;
+} 
+
+#navbar ul a:link{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: 1em; 
+   background-color: black; 
+} 
+
+
+
+#navbar ul a:visited{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: white; 
+} 
+
+#navbar ul a:active{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: white; 
+} 
+
+
+#navbar ul a:hover{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: #f6f0cc; 
+   background-color: #227755; 
+}
+
+
+
+#navbar img {
+    display: inline;
+    margin: 0;
+    text-align: left;
+}
+
+.test {
+    display: inline;
+    
+}
+
+.row {
+    width: 100%;
+}
+
+.row-top {
+
+    width: 100%;
+    background-color: #2150de;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.col-left {
+    max-width: 60px;
+    max-height: 70%;
+    float: left;
+}
+
+.col-right {
+    max-width: 100%;
+    float: left;
+}
+
+.col-half {
+    width: 50%;
+    margin-left: 0px;
+    float: left;
+}
+
+
+.col-quart {
+
+	width: 20%;
+	margin-left: 8px;
+	float: left;
+
+}
+
+.col-quart img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.col-quart h1 {
+
+	color : green;
+}
+
+.col-quart p {
+
+	color : purple;
+}
+
+
+.middle-row{
+
+	display: block;
+	clear: none;
+	text-align : center;
+}
+
+.bottom-row{
+	display: block;
+	clear : left;
+	text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+@media (max-width: 500px) {
+    .col-half {
+        width: 100%;
+    }
+
+    .col-quart {
+    	width: 49%;
+    }
+    .middle-row {
+
+    	width : calc(100% - 60px);
+    	clear : none;
+    }
+
+   
+    h3{
+
+    	color : red;
+    }
+}
+
+.test {
+	width: 100px;
+	height: 100px;
+	border-radius: 75px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://www.placehold.it/200x200) no-repeat;
+	}
