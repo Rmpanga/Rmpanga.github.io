@@ -1,0 +1,8 @@
+Math id is not below carousel
+Timer keeps icrementing when page is inactive
+	-Check to see if page is active
+	-Only update theta when page is active 
+Figure out color scheme 
+	-White, Light Green and Red ???
+
+What should I say ? How do I introduce myself

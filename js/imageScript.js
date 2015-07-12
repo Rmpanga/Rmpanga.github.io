@@ -1,4 +1,33 @@
 
+var timeInterval = 5000;
+var theta = 0; 
+
+window.setInterval("rotate()" , timeInterval);
+
+function flip(){
+
+  $("#carousel").toggleClass("rotate");
+  console.log("Working ?");
+  
+
+}
+
+
+function rotate(){
+
+
+	var carousel = document.getElementById('carousel');
+	carousel.style['transform'] = 'translateZ( -288px ) rotateY(' + theta + 'deg)';
+	
+
+	theta -= 40;
+	
+	console.log("theta: " + theta);
+
+	
+	
+}
+
 function youTubeImageHover(){
 
 $("#YouTube-image").attr('src' , 'images/youPlay.png')
