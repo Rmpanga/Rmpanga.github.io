@@ -185,15 +185,15 @@ body {
 
 }
 
-#carousel figure:nth-child(1) { background-color: green; transform: rotateY(   0deg ) translateZ( 686.893px ); }
-#carousel figure:nth-child(2) { background-color: blue; transform: rotateY(  40deg ) translateZ( 686.893px ); }
-#carousel figure:nth-child(3) { background-color: orange; transform: rotateY(  80deg ) translateZ( 686.893px ); }
-#carousel figure:nth-child(4) { background-color: red; transform: rotateY( 120deg ) translateZ( 686.893px ); }
-#carousel figure:nth-child(5) { background-color: purple; transform: rotateY( 160deg ) translateZ( 686.893px ); }
-#carousel figure:nth-child(6) { background-color: #FF3cdc; transform: rotateY( 200deg ) translateZ( 686.893px ); }
-#carousel figure:nth-child(7) { background-color: green; transform: rotateY( 240deg ) translateZ( 686.893px ); }
-#carousel figure:nth-child(8) { background-color: blue; transform: rotateY( 280deg ) translateZ( 686.893px ); }
-#carousel figure:nth-child(9) { background-color: orange; transform: rotateY( 320deg ) translateZ( 686.893px ); }
+#carousel figure:nth-child(1) { background-color: black; transform: rotateY(   0deg ) translateZ( 686.893px ); }
+#carousel figure:nth-child(2) { background-color: black; transform: rotateY(  40deg ) translateZ( 686.893px ); }
+#carousel figure:nth-child(3) { background-color: black; transform: rotateY(  80deg ) translateZ( 686.893px ); }
+#carousel figure:nth-child(4) { background-color: black; transform: rotateY( 120deg ) translateZ( 686.893px ); }
+#carousel figure:nth-child(5) { background-color: black; transform: rotateY( 160deg ) translateZ( 686.893px ); }
+#carousel figure:nth-child(6) { background-color: black; transform: rotateY( 200deg ) translateZ( 686.893px ); }
+#carousel figure:nth-child(7) { background-color: black; transform: rotateY( 240deg ) translateZ( 686.893px ); }
+#carousel figure:nth-child(8) { background-color: black; transform: rotateY( 280deg ) translateZ( 686.893px ); }
+#carousel figure:nth-child(9) { background-color: black; transform: rotateY( 320deg ) translateZ( 686.893px ); }
 
 a:-webkit-any-link{
 text-decoration:none !important;
