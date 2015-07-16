@@ -1,0 +1,57 @@
+Overall
+-Choose color scheme 
+-Parallax & Single Page Website
+-Smooth scroll
+
+Carousel
+- Fade out images when they go behind
+-Convert images to match golden ratio
+-Max 1050 px wide
+
+Navigation
+-Have Active link change when user scrolls down
+
+
+Add Projects Page
+	- What I want to work on 
+	- What I have worked on 
+
+Add link to youtube page 
+	- Work on Youtube page
+Add Backend (Images pulled from database)
+
+Footer
+-Add footer content uniform across all webpages
+Have content fade out when approaching navigation bar
+Make website a single page/parallax and navigation bar move to different parts of the page
+
+
+Direction
+
+	Welcome
+	- VERY Short intro with a nice welcoming image to by website (What should it be  ? Purple )
+	  Welcome to Richard Mpanga ? || Richard Mpanga (Winner)  || Richard Mpanga Welcomes you
+
+
+	Content: 16.66667% left & 16.66667% from right
+	About:
+	- Introduce myself 
+	- Talk about graduationg college
+	- Looking to expand my knowledge in anything random that interests me
+	- Things that interest me
+	- My Skill Set  
+
+	Projects:
+	- List cool projects that I have done 
+	- Things I want to do
+	- Resume here 
+
+	More about me 
+	- Carousel here 
+	- Youtube link here 
+		- Youtube experimenation 
+	
+	Contact:
+	- How you can contact me , gmail, 
+
+

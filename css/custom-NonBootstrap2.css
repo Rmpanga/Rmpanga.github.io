@@ -1,6 +1,13 @@
 
 body {
     background-color: black;
+    background : url("../images/background/black_background_drawings.jpg") center left fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     center center fixed;
 }
 
 
@@ -115,7 +122,7 @@ body {
 #welcome p{
 
   text-align:center;
-  color: #227755;
+  color: #47c9af;
 }
 
 #Math p{
@@ -152,6 +159,14 @@ body {
   -moz-transition: 4s;
   -ms-transition: 4s;
    transition: 4s;
+}
+
+.scrollFade{
+  opacity: 1;
+}
+#test{
+
+  margin-top: 90%;
 }
 
 #carousel figure img{

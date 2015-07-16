@@ -5,14 +5,14 @@
 	<meta charset="utf-8"
 	<meta name= "viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./css/custom-NonBootstrap2.css" >
-    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/navbar-style.css"/>
     <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
     
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-   
-    <script src="./js/imageScript.js"></script>
     <script src="./js/setup.js"></script>
+    <script src="./js/imageScript.js"></script>
+    
 	
 	<!--Optional theme
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
@@ -22,18 +22,16 @@
 <body>
  <div class="container">
     <div class="port">
-        <div id="navigation-bar" class="navbar-wrapper">
-            <div class="nav-image">
-                <img id="logo" src="./images/R_noise.jpg" onmouseover="logoIn();" onmouseout="logoOut()"class="" alt=""/>
-            </div>
-            <div class="navbar-links">
-                <ul> 
-                     <li class="highlight"><a class="selected" href="#" title="There is no place like it">127.0.0.1</a></li>
-                     <li class="highlight"><a href="https://google.com">About</a></li>
-                     <li class="highlight"><a href="#">Projects</a></li>
-                     <li class-"highlight"><a href="#"><img id="YouTube-image" src="./images/youT.png" onmouseover="youTubeImageHover();" onmouseout="youTubeImageOut();"></li>
-                </ul>
-            </div> 
+        <div class="fixed-nav">
+            <nav id="cssmenu" class="" data-options="scrolltop:false">
+                <ul>
+                   <li class='active'><a href='#'>Welcome</a></li>
+                   <li><a href='#'>About</a></li>
+                   <li><a href='#'>Projects</a></li>
+                   <li><a href='#'>More About Me</a></li>
+                   <li><a href='#'>Contact</a></li>
+                </ul>     
+            </nav>
         </div>
 
         <div id="below-nav">
@@ -47,17 +45,17 @@
 
 
             <section class="3D-Container">
-                <div id="carousel">
+                <div id="carousel" class="scrollFade">
                     
-                    <figure class="a"><img  src="./images/carousel/Grad_Friends.jpg"  alt=""></figure>
-                    <figure class="b"><img  src="./images/carousel/Grad_Alan.jpg" alt=""></figure>
-                    <figure class="c"><img  src="./images/carousel/Hashception.jpg" alt=""></figure>
-                    <figure class="d"><img  src="./images/carousel/Preboard_Skydiving.jpg" alt=""></figure>
-                    <figure class="e"><img  src="./images/carousel/Gliding.jpg" alt=""></figure>
-                    <figure class="f"><img  src="./images/carousel/Landing.jpg" alt=""></figure>
-                    <figure class="g"><img  src="./images/carousel/skydiving_friends.jpg" alt=""></figure>
-                    <figure class="h"><img  src="./images/carousel/Senior_Year_Football.jpg" alt=""></figure>
-                    <figure class="i"><img  src="./images/carousel/AirBud.jpg" alt=""> </figure>
+                    <figure id="grad_pic" class="scrollFade"><img  src="./images/carousel/Grad_Friends.jpg"  alt=""></figure>
+                    <figure class="scrollFade"><img  src="./images/carousel/Grad_Alan.jpg" alt=""></figure>
+                    <figure class="scrollFade"><img  src="./images/carousel/Hashception.jpg" alt=""></figure>
+                    <figure class="scrollFade"><img  src="./images/carousel/Preboard_Skydiving.jpg" alt=""></figure>
+                    <figure class="scrollFade"><img  src="./images/carousel/Gliding.jpg" alt=""></figure>
+                    <figure class="scrollFade"><img  src="./images/carousel/Landing.jpg" alt=""></figure>
+                    <figure class="scrollFade"><img  src="./images/carousel/skydiving_friends.jpg" alt=""></figure>
+                    <figure class="scrollFade"><img  src="./images/carousel/Senior_Year_Football.jpg" alt=""></figure>
+                    <figure class="scrollFade"><img  src="./images/carousel/AirBud.jpg" alt=""> </figure>
                   
                 </div>
             </section>
@@ -68,31 +66,19 @@
 
 
 
-  <!--
-            <div class="row">
-                <div class="col-half">
-                    <img id="grad_pic" src="./images/Grad friends.jpg" class="img-responsive scrollFade" alt="" />
-                </div>
-                <div  class="col-half">
-                    <img src="./images/PreBoard Skydiving.jpg" class="img-responsive scrollFade" alt="" />
-                </div>
-            </div>
+  
+           
 
             
-            <div class="row">
-                <div class="col-half">
-                    <img src="./images/landing.jpg" class="img-responsive scrollFade" alt="" />
-                </div>
-                <div class="col-half">
-                    <img src="./images/skating2.png" class="img-responsive scrollFade" alt="" /> 
-                </div>
-            </div>
-
+           
 
       
+      <div id="test">
+
         <div class="middle-row">
         	<div class="col-quart">
-        		<h1> About </h1>
+        		
+                <h1> About </h1>
         		 <img src="http://www.placehold.it/200x200" class="img-responsive" alt="" />
         	</div>
         	<div class="col-quart">
@@ -115,8 +101,10 @@
                 <img src="http://www.placehold.it/1200x100" class="img-responsive" alt="" />
         	</div>
         </div>
-    -->
     </div>
+    
+    </div>
+
 </div>
     
 </body>

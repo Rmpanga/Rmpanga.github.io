@@ -1,6 +1,6 @@
 
 var timeInterval = 5000;
-var theta = 0; 
+var theta = -40; 
 
 window.setInterval("rotate()" , timeInterval);
 
@@ -15,14 +15,14 @@ function flip(){
 
 function rotate(){
 
-
+	if (active){
 	var carousel = document.getElementById('carousel');
 	carousel.style['transform'] = 'translateZ( -288px ) rotateY(' + theta + 'deg)';
 	
-
+	console.log(theta);
 	theta -= 40;
-	
-	console.log("theta: " + theta);
+	}
+
 
 	
 	
